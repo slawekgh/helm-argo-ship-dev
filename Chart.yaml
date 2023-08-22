@@ -23,8 +23,6 @@ version: 1.12
 # It is recommended to use it with quotes.
 appVersion: "3.6"
 
-
 dependencies:
 - name: test-chart
   repository: https://github.com/slawekgh/argo-helm
-
