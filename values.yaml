@@ -13,9 +13,8 @@ servicePort : 2222
 PROTO : TCP
 targetPort : 8080
 
-test-chart:
-  obraz:
-    image: gimboo/nginx_nonroot
-    imagePolicy: Always
+obraz:
+  image: gimboo/nginx_nonroot
+  imagePolicy: Always
 
 
