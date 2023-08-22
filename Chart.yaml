@@ -22,3 +22,10 @@ version: 1.12
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "3.6"
+
+
+dependencies:
+- name: test-chart
+  version: 0.8
+  repository: https://github.com/slawekgh/argo-helm/tree/main/test-chart
+
