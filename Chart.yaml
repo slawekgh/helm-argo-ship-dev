@@ -26,4 +26,4 @@ appVersion: "3.6"
 dependencies:
 - name: test-chart
   repository: https://github.com/slawekgh/argo-helm/test-chart
-  version: chuj
+  version: 123
