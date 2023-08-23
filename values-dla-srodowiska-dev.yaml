@@ -3,17 +3,16 @@
 # Declare variables to be passed into your templates.
 
 
-test-chart:
-  replicaCount: 2
-  testerPodName: tester
-  namespace: dev
-  label: testlabel
-  ala: alamakota
-  servicePort : 2222
-  PROTO : TCP
-  targetPort : 8080
-  obraz:
-    image: gimboo/nginx_nonroot
-    imagePolicy: Always
+replicaCount: 3
+testerPodName: tester
+namespace: dev
+label: testlabel
+ala: alamakota
+servicePort : 3030
+PROTO : TCP
+targetPort : 8080
+obraz:
+  image: gimboo/nginx_nonroot
+  imagePolicy: Always
 
 
