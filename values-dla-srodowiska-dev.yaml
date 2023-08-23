@@ -3,12 +3,12 @@
 # Declare variables to be passed into your templates.
 
 
-replicaCount: 4
+replicaCount: 11
 testerPodName: tester
 namespace: dev
 label: testlabel
 ala: alamakota
-servicePort : 4040
+servicePort : 11111
 PROTO : TCP
 targetPort : 8080
 obraz:
